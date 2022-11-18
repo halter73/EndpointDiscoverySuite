@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointDiscoverySuite", "EndpointDiscoverySuite\EndpointDiscoverySuite.csproj", "{675A5605-6A78-42BA-BC89-D18AC91C094C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675A5605-6A78-42BA-BC89-D18AC91C094C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675A5605-6A78-42BA-BC89-D18AC91C094C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675A5605-6A78-42BA-BC89-D18AC91C094C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675A5605-6A78-42BA-BC89-D18AC91C094C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20937D11-29AD-4A2C-B55F-7200E215B82B}
+	EndGlobalSection
+EndGlobal
