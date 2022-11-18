@@ -19,11 +19,13 @@ app.Map(pattern8, helloRouteHandler);
 
 var emptyGroup = app.MapGroup("");
 var nestedGroup = emptyGroup.MapGroup("");
+var prefixedGroup = app.MapGroup("prefix");
+var nestedPrefixGroup = prefixedGroup.MapGroup("nested");
 
 emptyGroup.MapGet("/9", () => "Hello World!");
 emptyGroup.MapGet("/10", context => context.Response.WriteAsync("Hello World!"));
-
 nestedGroup.MapGet("/11", () => "Hello World!");
+nestedPrefixGroup.MapGet("/", () => "Hello World!"); // This route here is "/prefix/nested"
 
 #pragma warning disable ASP0014 // Suggest using top level route registrations instead of UseEndpoints
 app.UseRouting();
